@@ -1,1 +1,28 @@
+# Video Object Detection using YOLOv8 Nano
+
+This project demonstrates **real-time object detection in videos** using the **YOLOv8 Nano** model.  
+It was first developed in Kaggle and later uploaded to GitHub for sharing and reproducibility.
+
+---
+
+## 📂 Project Structure
+- `video-object-detection-using-yolo8-nano.ipynb` – Jupyter Notebook containing the full implementation.
+- `README.md` – Project description and usage guide.
+
+---
+
+## 🚀 Features
+- Implements YOLOv8 Nano for lightweight object detection.
+- Works on video files (can be extended to live camera streams).
+- Uses `ultralytics` library for YOLOv8.
+- Suitable for real-time applications due to its efficiency.
+
+---
+
+## 📦 Requirements
+
+Install dependencies with:
+
+```bash
+pip install ultralytics opencv-python matplotlib numpy torch
 
